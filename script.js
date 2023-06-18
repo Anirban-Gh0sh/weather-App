@@ -6,7 +6,7 @@ window.addEventListener('load', function() {
     setTimeout(function() {
       loader.style.display = 'none';
       content.style.display = 'block';
-    }, 30000);
+    }, 3000);
   });
   
 
