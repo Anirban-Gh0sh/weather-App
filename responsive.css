@@ -1,0 +1,26 @@
+@media (min-width:0px) and (max-width:574px)
+{
+    .cards-div
+    {
+        flex-wrap: wrap;
+    }
+    .cards{
+        margin: 1vh;
+    }
+    .container
+    {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width:575px) and (max-width:768px)
+{
+    .cards-div
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .cards{
+        margin: 1vh;
+    }
+}
