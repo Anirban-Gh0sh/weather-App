@@ -1,3 +1,21 @@
+
+window.addEventListener('load', function() {
+    var loader = document.getElementById('loader');
+    var content = document.getElementById('content');
+  
+    setTimeout(function() {
+      loader.style.display = 'none';
+      content.style.display = 'block';
+    }, 30000);
+  });
+  
+
+
+
+
+
+
+
 const API_KEY = `3265874a2c77ae4a04bb96236a642d2f`;
 const form = document.querySelector("form");
 const search = document.querySelector("#search-box");
