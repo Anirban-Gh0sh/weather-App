@@ -9,13 +9,6 @@ window.addEventListener('load', function() {
     }, 3000);
   });
   
-
-
-
-
-
-
-
 const API_KEY = `3265874a2c77ae4a04bb96236a642d2f`;
 const form = document.querySelector("form");
 const search = document.querySelector("#search-box");
@@ -34,15 +27,15 @@ const getWeather = async(city) => {
 }
 const showWeather = (data) => {
     if (data.cod == "404") {
-        weather.innerHTML = `<h2> City Not Found <h2>`
+        weather.innerHTML = `<h2>City not found<h2>`
         return;
     }
     weather.innerHTML = `
         <div>
-            <h3>Temperature</h3>
+            <h3>TEMPERATURE</h3>
             <h2>${data.main.temp}℃</h2>
             <br>
-            <h3>Max/Min</h3>
+            <h3>MAX/MIN</h3>
             <h3>${data.main.temp_max}/${data.main.temp_min}℃</h3>
             
         </div>
@@ -59,15 +52,15 @@ const getWeather1 = async(city) => {
 }
 const showWeather1 = (data) => {
     if (data.cod == "404") {
-        weather1.innerHTML = `<h2> City Not Found <h2>`
+        weather1.innerHTML = `<h2>City not found<h2>`
         return;
     }
     weather1.innerHTML = `
         <div>
-            <h4>Wind Speed</h4>
+            <h4>WIND SPEED</h4>
             <h3>${data.wind.speed} Km/h</h3>
             <br>
-            <h4>Humidity</h4>
+            <h4>HUMDITY</h4>
             <h2>${data.main.humidity} %</h2>
         </div>
     `
@@ -83,7 +76,7 @@ const getWeather2 = async(city) => {
 }
 const showWeather2 = (data) => {
     if (data.cod == "404") {
-        weather2.innerHTML = `<h2> City Not Found <h2>`
+        weather2.innerHTML = `<h2>City not found<h2>`
         return;
     }
     weather2.innerHTML = `
