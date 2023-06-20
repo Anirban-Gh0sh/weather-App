@@ -34,7 +34,6 @@ const showWeather = (data) => {
         <div>
             <h3>TEMPERATURE</h3>
             <h2>${data.main.temp}℃</h2>
-            <br>
             <h3>MAX/MIN</h3>
             <h3>${data.main.temp_max}/${data.main.temp_min}℃</h3>
             

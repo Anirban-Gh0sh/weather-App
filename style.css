@@ -139,17 +139,22 @@ body
 }
 #search-button
 {
+  
   cursor: pointer;
-  width: 115px;
+  width: 3em;
   height: 55px;
-  border-radius:0.5em ;
+  border-radius:21%;
   font-size: 1.5em;
-  background-color: white;
-  color: gray;
+  background-color:white;
+  /* color: gray; */
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   /* font-family: 'Bebas Neue', sans-serif; */
   font-family: 'Poppins', sans-serif;
-  border: radius 0.5em;
+}
+#searchbuttonlogo
+{
+  width: 1em;
+  border-radius: 50%;
 }
 .cards-div
 {
